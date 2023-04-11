@@ -1,80 +1,85 @@
 % !TEX program = xelatex
-
+% This file is generated, don't manually edit!
 \documentclass{resume}
-%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
-
+\usepackage{hyperref}
 \begin{document}
-\pagenumbering{gobble} % suppress displaying page number
-
-\name{Bin Yuan}
-
+\name{Jiale Lin}
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
-
-\section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, China}{2013 -- Present}
-\textit{Master student} in Electronics Engineering (EE), expected March 2016
-\datedsubsection{\textbf{Xidian University}, Shaanxi, China}{2009 -- 2013}
-\textit{B.S.} in Electronics Engineering (EE)
-
-\section{\faUsers\ Experience}
-\datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
-\role{Summer Intern}{Manager: xxx}
-Brief introduction: xxx.
+\email{jeremykalilin@gmail.com}$\circ$
+\linkedin[jiale-lin]{https://www.linkedin.com/in/jiale-lin-ab03a4149/}
+}
+\section{Education}
+\datedsubsection{\textbf{University of Southern California}, CA, US}{08/2020 -- Present}
+Major: Computer Science (Online MS, Part-Time), Anticipated Date of Graduation:
+12/2023
+\datedsubsection{\textbf{University of Arizona}, AZ, US}{}
+Major: Mathematics with Computer Science (Bachelor), Date of Graduation:
+05/2019
+\section{Work Experience}
+\datedsubsection{\textbf{Aviatrix (Full-Time)}, Santa Clara, CA}{05/2022 -- Present}
+\role{Automation and infrastructure}{Member of Technical Staff}
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+\item Built Multi-Cloud \textbf{AWS, Azure, GCP, OCI, Alibaba, VMware} Topology and Testbeds using \textbf{Python (Pytest)} and \textbf{Terraform}
+\item Created from Scratch Test Automation and Multi-Cloud Image build Pipeline using \textbf{Jenkins, Terraform, Github Actions, Packer}
 \end{itemize}
-
-\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
-\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
-Brief introduction: xxx
+\datedsubsection{\textbf{Veeva Systems (Full-Time)}, Pleasanton, CA}{08/2021 -- 05/2022}
+\role{Mobile and Software Test Automation}{Test Automation Engineer}
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+\item Created Cross Platform BDD-style Framework for App Testing with \textbf{Kotlin, Cucumber, Appium, Gradle}
+\item Built from Scratch Testing Infrastructure with e2e test execution, logcat and screenshot capture
+\end{itemize}
+\datedsubsection{\textbf{Google Fiber inc. (Contract)}, Remote}{06/2019 -- 06/2021}
+\role{Test Automation}{Test Engineer}
+\begin{itemize}[parsep=0.10ex]
+\item Created \textbf{Page Object Model Framework} for Testing Angular Web Application with Webdriver (Python, Java)
+\item Executed Functional and UI Tests for Android Application with \textbf{UiAutomator and Appium}
+\item Designed Database Objects including tables, views, macros and stored procedures using \textbf{BigQuery SQL}
+\item Involved in Interoperability Testing with CPE Devices like wireless routers and extenders, Measured Wired and Wireless
+throughput in 2.4Ghz and 5Ghz band with \textbf{Ixia Veriwave}
+\item Used network analysis tools such as \textbf{Wireshark and tcpdump for packet analysis (TCP/IP, UDP, ARP, SSL)}
+\item Created \textbf{Powershell, Google Apps Script, Python and Bash Scripts} to automate the manual tasks
+\item Experience with Functional (Smoke, Sanity, Regression, User Acceptance) and Non-Functional Testing (Localization,
+Interoperability, Stress Testing), familiar with Scrum and Kanban Methodologies
+\item Assisted in testing and validation of business requirements and system functionality, Supported customer experience applications
+and tools such as \textbf{IVR, Oracle Field Service Cloud, ticket management, knowledge base}
+\item Some Working experience with \textbf{ONT, ONU, Cisco Catalyst Switches}
 \end{itemize}
 
-\datedsubsection{\textbf{\LaTeX\ résumé template}}{May. 2015 -- Present}
-\role{\LaTeX, Maintainer}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
+\section{Related Projects}
+
+\datedsubsection{\textbf{Recommendation System - C++, Python}}{}
+
+Social Recommendation System Using Client-Server Model
+\begin{itemize}[parsep=0.10ex]
+    \item Developed in \textbf{C++ a Distributed System and Graphical Model consisting of Multiple Servers}
+    \item Created \textbf{TCP Sockets between Client and Recommendation Server and UDP Sockets between Computation Servers}
+    \item Handled Friend Suggestion Request from Client and calculated the optimal result based on Collaborative Filtering
+    \item Verified the Correctness of the Recommendation result with \textbf{Python Scripts Using NetworkX}
+\end{itemize}
+
+\datedsubsection{\textbf{Traffic Shaping Router - C}}{}
+
+POSIX Multithreading Traffic Shaping Network Emulator motivated by tc in Linux Kernel
+\begin{itemize}[parsep=0.10ex]
+    \item Implemented the Scalable Rate-Limiting Token Bucket Filter with configured parameters
+\end{itemize}
+
+\datedsubsection{\textbf{Algorithm Implementation and Visualization - Java}}{}
+
+Interactive Educational Demo for first-time Algorithm learners
+\begin{itemize}[parsep=0.10ex]
+    \item Developed \textbf{JavaFX Collision Detection Application} which takes user input and store 2D positional data
+\end{itemize}
+
+\section{Skills}
+
 \begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
+    \item \textbf{Programming Languages and Test Automation Frameworks}: Java, C, MATLAB, SQL, Python, Typescript, C++, HTML5/CSS3, Golang, R, Selenium, Mockito, Pytest
+    \item \textbf{Test Automation Frameworks and Tools}: Selenium, Mockito, Pytest
+    \item \textbf{Cloud Technologies}: AWS, Azure, GCP (BigQuery, BigTable, Spanner, StackDriver), AliCloud, VMware vSphere
+    \item \textbf{Networking}: GNS3, PuTTY, Wireshark, VMware workstation, Oracle VirtualBox
+    \item \textbf{Linux}: netstat, nslookup, iperf, dig, tracert, crontab, swap
+    \item \textbf{Misc}: DNS, DHCP, LDAP, VNC, WMI, SSH, SNMP, SSO, Maven, Gradle, Jira, Bugzilla, Sourcegraph, Bitbucket, Redis \& OCI \& Calico (Certified)
 \end{itemize}
 
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
-%\begin{itemize}
-%  \item main contribution
-%\end{itemize}
-
-\section{\faCogs\ Skills}
-\begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C == Python > C++ > Java
-  \item Platform: Linux
-  \item Development: Web, xxx
-\end{itemize}
-
-\section{\faHeartO\ Honors and Awards}
-\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
-\datedline{Other awards}{2015}
-
-\section{\faInfo\ Miscellaneous}
-\begin{itemize}[parsep=0.5ex]
-  \item Blog: http://your.blog.me
-  \item GitHub: https://github.com/username
-  \item Languages: English - Fluent, Mandarin - Native speaker
-\end{itemize}
-
-%% Reference
-%\newpage
-%\bibliographystyle{IEEETran}
-%\bibliography{mycite}
 \end{document}
